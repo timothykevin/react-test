@@ -1,0 +1,20 @@
+{
+  "name": "react-test",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@gdp/react-app": "^0.2.20",
+    "@gdp/react-app-scripts": "^0.0.58",
+    "@types/react-dom": "16.0.5"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "scripts": {
+    "configure": "gdp-react-scripts configure",
+    "start": "npm run start:csr",
+    "start:csr": "gdp-react-scripts serve",
+    "start:ssr": "rm -rf ./build/server && webpack --config ./node_modules/@gdp/react-app-scripts/config/webpack/ssr-serve.js"
+  }
+}

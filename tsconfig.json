@@ -1,0 +1,9 @@
+{
+    "extends": "./node_modules/@gdp/react-app-scripts/config/typescript/tsconfig",
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
